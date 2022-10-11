@@ -16,6 +16,9 @@ The research and development process does not always result in a product that is
 
 We share and document these designs, as well as the ideas and timelines behind them in this section. You can also find CAD models and the bill of materials should someone wish to build the design for themselves.
 
+### Discontinued Products
+Products are sometimes superseded with new and improved versions, or simply no longer sell and are discontinued. Here you can find products which fall into these categories. We provide the CAD models, and the full bill of materials, so that these designs are never lost.
+
 ## CAD Repository
 Most of the components we use in our CAD models are modelled in-house. This section is a repository of those CAD models which are available for the community to use in their own designs.
 
@@ -24,4 +27,4 @@ By using our official models, you can be assured that the design you create wil 
 # License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>  
 
-Unless specified otherwise, all content published on the Rat Rig Lab is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+Unless specified otherwise, all content published on the Rat Rig Lab is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
