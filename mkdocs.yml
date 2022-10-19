@@ -1,0 +1,57 @@
+site_name: "Rat Rig Lab"
+site_url: https://lab.ratrig.com/
+site_author: "Rat Rig"
+site_description: "Through the Rat Rig Lab, we share designs and ideas."
+edit_uri: ""
+copyright: Copyright &copy; 2022 Rat Rig
+
+repo_name: lab.ratrig.com
+repo_url: https://github.com/Rat-Rig/lab.ratrig.com
+
+docs_dir: docs/src
+site_dir: site
+theme:
+  logo: assets/logo_rat_medium.png
+  favicon: assets/logo_rat_small.png
+  language: en
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    scheme: default
+    primary: rat_rig
+    accent: rat_rig_alt
+  features:
+    - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - awesome-pages
+  - search
+  - macros:
+      module_name: docs/src/rr_mkdocs_plugin
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - index.md
+    - official_mods.md
+    - upcoming_prototype.md
+    - non_commercial.md
+    - discontinued.md
+    - cad_repository.md
+    - Contact: mailto:info@ratrig.com
