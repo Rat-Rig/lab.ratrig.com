@@ -106,6 +106,30 @@ def define_env(env):
             cad_db.sort(key=lambda x: x.name)
         return "\n".join(rr_cad_repo_generate_markdown(cad_db))
 
+    def rr_stl_repo_generate_markdown(stl_db):
+        yield f"| | | |"
+        yield f"| :---: | :---: | :---: |"
+        while stl_db:
+            if len(stl_db) > 2:
+                yield f"| ![](/cad/official_models/{stl_db[0]}.png)<br />**{stl_db[0]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[0]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[0]}.step) | ![](/cad/official_models/{stl_db[1]}.png)<br />**{stl_db[1]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[1]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[1]}.step) | ![](/cad/official_models/{stl_db[2]}.png)<br />**{stl_db[2]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[2]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[2]}.step) |"
+                stl_db = stl_db[3:]
+            elif len(stl_db) > 1:
+                yield f"| ![](/cad/official_models/{stl_db[0]}.png)<br />**{stl_db[0]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[0]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[0]}.step) | ![](/cad/official_models/{stl_db[1]}.png)<br />**{stl_db[1]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[1]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[1]}.step) | |"
+                stl_db = stl_db[2:]
+            elif len(stl_db) > 0:
+                yield f"| ![](/cad/official_models/{stl_db[0]}.png)<br />**{stl_db[0]}**<br />:material-archive-arrow-down: [STL](/cad/official_models/{stl_db[0]}.stl) - :material-archive-arrow-down: [STEP](/cad/official_models/{stl_db[0]}.step) | | |"
+                stl_db = stl_db[1:]
+
+    @env.macro
+    def rr_stl_repo_build():
+        stl_files = Path(env.conf["docs_dir"] + "/cad/official_models/").glob("*.step")
+        stl_db = []
+
+        for stl_file in stl_files:
+            filename = get_filename(str(stl_file)).replace(".step","")
+            stl_db.append(filename)
+        return "\n".join(rr_stl_repo_generate_markdown(stl_db))
+
     @env.macro
     def printed_parts_bom_minimal(file_path: str):
         table = []
