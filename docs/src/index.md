@@ -22,7 +22,7 @@ The research and development process does not always result in a product that is
 Products are sometimes superseded with new and improved versions, or simply no longer sell and are discontinued. Here you can find products which fall into these categories. We provide the CAD models, and the full bill of materials, so that these designs are never lost.
 
 ### CAD Repository
-Most of the components we use in our CAD models are modelled in-house. This section is a repository of those CAD models which are available for the community to use in their own designs. By using our official models, you can be assured that the design you create wil match the product you can purchase.
+Most of the components we use in our CAD models are modelled in-house. This section is a repository of those CAD models which are available for the community to use in their own designs. By using our official models, you can be assured that the design you create will match the product you can purchase.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>

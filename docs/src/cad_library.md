@@ -10,6 +10,9 @@ hide:
   }
 </style>
 
+!!! attention "Downloading CAD library models"
+    To download a CAD model, please right click on the associated image below and choose "Save link as..." from the menu
+
 ## Components
 {{ rr_cad_repo_build("components") }}
 
