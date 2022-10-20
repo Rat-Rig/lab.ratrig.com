@@ -25,3 +25,7 @@ hide:
 
 ### 40 Series T-Slot
 {{ rr_cad_repo_build("extrusions/40_series", False) }}
+
+## Linear Rails
+### MGN12
+{{ rr_cad_repo_build("linear_rails/mgn12") }}
