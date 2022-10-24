@@ -32,8 +32,7 @@ QTY,SKU,Length (mm),Tap,Item Name
 2,HW2138SC,,,Cap Head Screw M5x40
 4,HW2140SC,,,Cap Head Screw M5x55
 2,HW2957SC,,,Cap Head Screw M5x65
-1,HW2958SC,,,Cap Head Screw M5x70
-1,HW2958SC,,,Cap Head Screw M5x70
+2,HW2958SC,,,Cap Head Screw M5x70
 157,HW1836SC,,,Cap Head Screw M6x12
 4,HW2827SC,,,Cap Head Screw M6x16
 9,HW1870SC,,,Cap Head Screw M6x20
@@ -54,7 +53,7 @@ QTY,SKU,Length (mm),Tap,Item Name
 3,HW2915GC,,,Leadscrew Nut - POM - TR8*4
 2,HW2353GC,350,,Linear Rail - MGN12 350mm + MGN12C carriage
 3,HW2036GC,400,,Linear Rail - MGN12 400mm + MGN12C carriage
-1,HW2034GC,500,,Linear Rail - MGN12 500mm + MGN12C carriage
+1,HW2035GC,500,,Linear Rail - MGN12 500mm + 2 x MGN12C carriage
 3,HW2127GC,,,Magnet - 20x10x5mm - Two hole (M3 Countersink screws)
 38,HW1630NC,,,Mini Precision Shim - 8x5x1mm
 7,HW1078EC,,,"Nema 17 Stepper Motor - 48mm - 1.8degree/step, 76oz-in"
