@@ -22,3 +22,10 @@ hide:
   
   Ultimately this resulted in several issues with machine maintenance, and as such was not chosen for the enclosure design."
 )}}
+
+### V-Minion 1.1 Alpha
+{{ rr_build_project_entry(
+  "vminion_1_1",
+  "Non-commercial", 
+  "The V-Minion 1.1 was intended to be an incremental upgrade to the original V-Minion 1.0 design. The goal was to integrate the electronics onto the V-Minion frame, as well as support a variant of the Rat Rig toolhead."
+)}}
