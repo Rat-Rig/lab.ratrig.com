@@ -19,7 +19,8 @@ The V-Minion 1.1 was developed as an upgrade to the original V-Minion 1.0 design
 The V-Minion uses standard Cartesian kinematics. Unofficially these are often referred to as "bed slingers", as the print bed (and as such the print itself) moves in the Y direction during operation. As the Z-axis is only supported at one end, the V-Minion is considered to be a cantilevered design.
 
 ## Development Timeline
-> 15/10/2024 - Published to Rat Rig Lab  
+> 29/10/2024 - Added non-toolboard variant of the toolhead
+> 15/10/2024 - Published to Rat Rig Lab
 
 ## Gallery
 [![](assets/vminion_1_1/1_thumb.png)](assets/vminion_1_1/1.png){ target=_blank }
@@ -28,7 +29,7 @@ The V-Minion uses standard Cartesian kinematics. Unofficially these are often re
 [![](assets/vminion_1_1/4_thumb.png)](assets/vminion_1_1/4.png){ target=_blank }
 
 ## CAD
-[:material-file-cad-box: Rat Rig V-Minion 1.1 Alpha CAD](https://a360.co/48ehnFa){: .md-button .md-button--primary target=_blank }
+[:material-file-cad-box: Rat Rig V-Minion 1.1 Alpha CAD](https://a360.co/48ehnFa){: .md-button .md-button--primary target=_blank } [:material-file-cad-box: Non-Toolboard Toolhead CAD](https://a360.co/3YEu60D){: .md-button .md-button--primary target=_blank }
 
 ## Bill of Materials
 !!! attention "BOM Unavailable"
